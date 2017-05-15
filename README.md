@@ -93,11 +93,11 @@ This project has [Visual Studio Code](https://code.visualstudio.com/) tasks and 
 ### Tasks
 
 - **Command+Shift+B** - Runs the "build" task which builds the api/ project
-- **Command+Shift+T** - Runs the "test" task which runs the xUnit tests in api.test/ and Mocha/Enzyme tests in client-react.test/.
+- **Command+Shift+T** - Runs the "test" task which runs the xUnit tests in api.test/ and Mocha/Enzyme tests in client-web.test/.
 
 ### Debug Launcher
 
-With the following debugger launch configs, you can set breakpoints in api/ or the the Mocha tests in client-react.test/ and have full debugging support.
+With the following debugger launch configs, you can set breakpoints in api/ or the the Mocha tests in client-web.test/ and have full debugging support.
 
 - **Debug api/ (server)** - Runs the vscode debugger (breakpoints) on the api/ .NET Core app
 - **Debug client-web.test/ (Mocha tests)** - Runs the vscode debugger on the client-web.test/ Mocha tests
