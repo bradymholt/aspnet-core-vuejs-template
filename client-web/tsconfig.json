@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ],
+    "moduleResolution": "node"
+  },
+  "files": [
+    "./boot.ts"
+  ],
+  "include": [
+    "./**/*.d.ts"
+  ]
+}
