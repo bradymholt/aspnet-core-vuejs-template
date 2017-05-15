@@ -26,7 +26,6 @@
     "@types/chai": "^3.4.32",
     "@types/mocha": "^2.2.31",
     "aspnet-webpack": "^1.0.11",
-    "aspnet-webpack-react": "^1.0.5",
     "bootstrap": "^4.0.0-alpha.6",
     "chai": "^3.5.0",
     "cross-env": "^3.1.3",

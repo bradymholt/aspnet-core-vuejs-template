@@ -124,7 +124,6 @@ namespace aspnetCoreReactTemplate
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true,
-                    ReactHotModuleReplacement = true,
                     ConfigFile = System.IO.Path.Combine(Configuration["webClientPath"], "webpack.config.js")
                 });
 
