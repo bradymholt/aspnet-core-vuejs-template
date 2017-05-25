@@ -13,6 +13,7 @@ This app is a template application using ASP.NET Core for a REST/JSON API server
   - Vue.js
   - Webpack for asset bundling and HMR (Hot Module Replacement)
   - CSS Modules
+  - Fetch API for REST requests
 - Testing
   - xUnit for .NET Core
   - MailCatcher for development email delivery
