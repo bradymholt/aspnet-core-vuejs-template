@@ -8,10 +8,11 @@ namespace aspnetCoreReactTemplate.Models
 
         [Required]
         [MinLength(3)]
-
+        [Display(Name = "Last Name")]
         public string lastName { get; set; }
 
         [Required]
+        [Display(Name = "First Name")]
         public string firstName { get; set; }
 
         public string phone { get; set; }

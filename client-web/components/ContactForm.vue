@@ -7,12 +7,12 @@
       <form v-on:submit.prevent="onSubmit">
         <div v-bind:class="{ 'has-danger': errors.lastName }" class="form-group">
           <label htmlFor="inputLastName" class="form-control-label">Last Name</label>
-          <input type="text" autoFocus name="lastName" id="inputLastName" v-model="contact.lastName" class="form-control form-control-danger" required />
+          <input type="text" autoFocus name="lastName" id="inputLastName" v-model="contact.lastName" class="form-control form-control-danger" />
           <div class="form-control-feedback">{{ firstError(errors.lastName) }}</div>
         </div>
         <div v-bind:class="{ 'has-danger': errors.firstName }" class="form-group">
           <label htmlFor="inputFirstName" class="form-control-label">First Name</label>
-          <input type="text" name="firstName" id="inputFirstName" v-model="contact.firstName" class="form-control form-control-danger" required />
+          <input type="text" name="firstName" id="inputFirstName" v-model="contact.firstName" class="form-control form-control-danger" />
           <div class="form-control-feedback">{{ firstError(errors.firstName) }}</div>
         </div>
         <div v-bind:class="{ 'has-danger': errors.email }" class="form-group">
